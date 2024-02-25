@@ -2,7 +2,7 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 
-class LeNet5(nn.Module):
+class LeNet5Modern(nn.Module):
     def __init__(self, in_channels: int, feature_channels: int, num_classes: int) -> None:
         super().__init__()
         self.conv1 = nn.Conv2d(in_channels, feature_channels, kernel_size=5)

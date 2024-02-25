@@ -1,5 +1,6 @@
 import torch
 from torch import nn
+import torch.nn.functional as F
 
 class LeNet5(nn.Module):
     def __init__(self, num_classes: int) -> None:
@@ -23,4 +24,4 @@ class LeNet5(nn.Module):
         x = self.c5(x)
         x = self.f6(self.flatten(x))
         x = self.output(self.tanh(x))
-        return x
+        return F.log_softmax(x, dim=1)
