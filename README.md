@@ -4,6 +4,7 @@
 
 ![LeNet-5 Architecture](./images/architecture.png)
 
+"Gradient Based Learning Applied to Document Recognition" by Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner.
 Paper: http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf.
 
 I have implemented the OG network ([model.py](./model/model.py)) as shown in figure above with slight change in output activation function as Softmax rather than Euclidean Radial Basis Function.
