@@ -26,7 +26,7 @@ python train.py --epochs 10 --model_name LeNet5Modern
 
 ## Plots
 
-- After 10 epochs of training the models showed following results:
+- After 10 epochs of training, the models showed following results:
 
     - OG LeNet5
 
