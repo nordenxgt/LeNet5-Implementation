@@ -1,3 +1,3 @@
-from .dataloader import dataloader
+from .dataloader import mnist_dataloader
 
-__all__ = ["dataloader"]
+__all__ = ["mnist_dataloader"]

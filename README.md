@@ -7,9 +7,9 @@
 "Gradient Based Learning Applied to Document Recognition" by Yann LeCun, Léon Bottou, Yoshua Bengio and Patrick Haffner.
 Paper: http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf.
 
-I have implemented the OG network ([model.py](./model/model.py)) as shown in figure above with slight change in output activation function as Softmax rather than Euclidean Radial Basis Function.
+Implementation of the OG network as shown in figure above is here: [model.py](./model/model.py). There is change in output activation function from the original paper: Euclidean Radial Basis Function to Softmax.
 
-Also, I have written a more modern version of LeNet-5 here: [modern.py](./model/modern.py).
+Also, a more modern version of LeNet-5 is here: [modern.py](./model/modern.py).
 
 ## Usage
 
@@ -22,7 +22,7 @@ python train.py --epochs 10
 - For Modern LeNet5
 
 ```bash
-python train.py --epochs 10 --model_name LeNet5Modern 
+python train.py --epochs 10 --modern
 ```
 
 ## Plots

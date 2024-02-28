@@ -8,8 +8,10 @@ def plot_loss_accuracy(
         train_accuracies: List[int], 
         test_accuracies: List[int], 
         save: bool = False,
-        name: str = ""
-    ) -> None:
+        modern: bool = False
+    ) -> None:   
+    name = "LeNet5Modern" if modern else "LeNet5"
+
     epochs = range(1, len(train_losses) + 1)
 
     plt.figure(figsize=(12, 6))
