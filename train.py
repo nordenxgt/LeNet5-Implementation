@@ -20,7 +20,7 @@ def main(epochs: int, modern: bool):
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     lr = 1e-3
-    optimizer = torch.optim.SGD(model.parameters(), lr=lr)
+    optimizer = torch.optim.SGD(model.parameters(), lr=lr, momentum=0.9)
 
     train_dataloader, test_dataloader = mnist_dataloader()
 
