@@ -37,3 +37,18 @@ python train.py --epochs 10 --modern
     - Modern LeNet5
 
     ![Modern LeNet-5 Loss and Accuracy Plots](./results/LeNet5Modern.png)
+
+## Citation
+
+```
+@ARTICLE{726791,
+  author={Lecun, Y. and Bottou, L. and Bengio, Y. and Haffner, P.},
+  journal={Proceedings of the IEEE}, 
+  title={Gradient-based learning applied to document recognition}, 
+  year={1998},
+  volume={86},
+  number={11},
+  pages={2278-2324},
+  keywords={Neural networks;Pattern recognition;Machine learning;Optical character recognition software;Character recognition;Feature extraction;Multi-layer neural network;Optical computing;Hidden Markov models;Principal component analysis},
+  doi={10.1109/5.726791}}
+```
